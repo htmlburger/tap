@@ -1,7 +1,6 @@
 <?php
 
 use App\Factories\ConfigurationFactory;
-use App\Fixers\BlankLineAfterClassOpeningFixer;
 use App\Fixers\SpaceInsideParenthesisFixer;
 
 return ConfigurationFactory::preset([
@@ -28,7 +27,6 @@ return ConfigurationFactory::preset([
     'fully_qualified_strict_types' => true,
     'function_declaration' => true,
     'Htmlburger/space_inside_parenthesis' => true,
-    'Htmlburger/blank_line_after_class_opening' => true,
     'function_typehint_space' => true,
     'global_namespace_import' => ['import_classes' => true],
     'include' => true,
@@ -139,9 +137,9 @@ return ConfigurationFactory::preset([
     'whitespace_after_comma_in_array' => true,
     'not_operator_with_space' => true,
     'array_indentation' => true,
+    'switch_case_space' => false,
 ])
     ->setIndent("\t")
     ->registerCustomFixers([
         new SpaceInsideParenthesisFixer,
-        new BlankLineAfterClassOpeningFixer,
     ]);
