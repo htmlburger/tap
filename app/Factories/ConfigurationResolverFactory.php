@@ -22,6 +22,7 @@ class ConfigurationResolverFactory
         'psr12',
         'symfony',
         'empty',
+        'wp',
     ];
 
     /**

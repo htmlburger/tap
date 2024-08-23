@@ -66,7 +66,7 @@ class ConfigurationJsonRepository
      */
     public function preset()
     {
-        return $this->preset ?: ($this->get()['preset'] ?? 'laravel');
+        return $this->preset ?: ($this->get()['preset'] ?? 'wp');
     }
 
     /**

@@ -25,6 +25,7 @@ class SummaryOutput
         'laravel' => 'Laravel',
         'symfony' => 'Symfony',
         'empty' => 'Empty',
+        'wp' => 'Laravel',
     ];
 
     /**
