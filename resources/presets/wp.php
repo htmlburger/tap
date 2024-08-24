@@ -5,7 +5,7 @@ use App\Fixers\SpaceInsideParenthesisFixer;
 
 return ConfigurationFactory::preset([
     'align_multiline_comment' => true,
-    'array_syntax' => ['syntax' => 'long'],
+    'array_syntax' => ['syntax' => 'short'],
     'binary_operator_spaces' => [
         'default' => 'single_space',
     ],
