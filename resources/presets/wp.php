@@ -10,9 +10,6 @@ return ConfigurationFactory::preset([
         'default' => 'single_space',
     ],
     'blank_line_after_opening_tag' => true,
-    'blank_line_before_statement' => [
-        'statements' => ['return', 'try', 'if', 'while', 'for', 'foreach', 'do', 'case'],
-    ],
     'braces' => [
         'position_after_functions_and_oop_constructs' => 'same',
         'allow_single_line_closure' => false,
