@@ -39,7 +39,7 @@ return ConfigurationFactory::preset([
     'method_chaining_indentation' => true,
     'native_function_type_declaration_casing' => true,
     'new_with_braces' => true,
-    'no_alternative_syntax' => true,
+    'no_alternative_syntax' => false,
     'no_blank_lines_after_class_opening' => false,
     'no_blank_lines_after_phpdoc' => true,
     'no_empty_comment' => true,
